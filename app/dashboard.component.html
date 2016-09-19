@@ -1,0 +1,44 @@
+<!--<ul class="todos1">
+  <li *ngFor="let todo of todos1">
+    {{todo.text}}
+    {{todo.done}}
+  </li>  
+</ul>-->
+<table class="Infos">
+    <tr *ngFor="let info of Infos">
+      <td style="background-color:#f1f1f1">
+         {{ info.text }}</td>
+       <td style="background-color:#f1f1f1">
+         {{ info.done }}</td>
+        <!--<td ng-if="$odd" style="background-color:#f1f1f1">
+            {{ todo.text }}
+        </td>
+        <td ng-if="$even">
+            {{ todo.text }}
+        </td>
+        <td ng-if="$odd" style="background-color:#f1f1f1">
+            {{ todo.done }}
+        </td>
+        <td ng-if="$even">
+            {{ todo.done }}
+        </td>-->
+    </tr>
+</table>
+<table class="todos">
+    <tr *ngFor="let todo of todos">
+      <td style="background-color:#f1f1f1">
+         {{ todo.text }}</td>
+       <td style="background-color:#f1f1f1">
+         {{ todo.done }}</td>       
+    </tr>
+</table>
+
+<div style="width:60%" id="divbuysell"></div>
+    <div style="width:60%" id="divline"></div>
+    <div style="width:60%" id="divcolumn"></div>
+
+<!-- 
+Copyright 2016 Google Inc. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+-->
